@@ -1,0 +1,30 @@
+.l_main {
+    width: 500px;
+}
+
+.l_nav {
+    display: flex;
+}
+
+.l_nav__item {
+    margin-right: 2px;
+    background-color: rgba(204,204,204,1);
+    color: rgba(0, 0, 0, 1);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.active {
+    background-color: rgba(0,0,0,1);
+    color: rgba(255,255,255,1);
+}
+
+.l_contents {
+    border: 1px solid rgba(204,204,204,1);
+    padding: 20px;
+}
+
+.l_contents__item{
+    display: none;
+}

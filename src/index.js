@@ -18,7 +18,7 @@ import "./style.scss"
         //クリックした個所のDOM要素を取得する。
         const target = event.target;
 
-        //DOM要素のデータ属性(data-XXX)を取得する。
+        //DOM要素の序数を取得する。
         const targetVal = navArray.indexOf(target)
 
         //対象以外のnav、contentを非アクティブ化する。(※setAttribute()を使ってはならない。「現在の値にアクセスしたり、変更したりするにはプロパティを使用すべきです」(MDN)。)
